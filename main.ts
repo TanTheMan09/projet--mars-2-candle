@@ -1,6 +1,9 @@
 input.onSound(DetectedSound.Loud, function () {
     lit = !(lit)
 })
+input.onButtonPressed(Button.B, function () {
+    lit = true
+})
 let flicker = 0
 let lit = false
 lit = true
